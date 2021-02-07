@@ -24,8 +24,7 @@ HostsChanger is basically comprised of some WPF User Controls built on top of an
 A: Except for the default profile, any profiles that you create are basically mutually exclusive sets of entries for your hosts file – only one of which can be active. This is useful, for example, when you have multiple virtual environment clones running in a development environment. The default profile should contain hosts entries that must always be active and can not be turned off.
 
 ###### Q: Why do I get a UAC prompt?
-A: In newer versions of Windows (Vista/7/Server 2008)┬á you are required to have administrator privileges to edit the hosts file.
+A: In newer versions of Windows (Vista/7/Server 2008) you are required to have administrator privileges to edit the hosts file.
 
 ###### Q: Can I add my own icons for profiles?
-A: Yes. Simply create a pair of 16×16 png and ico files and name them as follows: HostsChanger-<yourProfileName>.<ext>
-Place the files in the Icons subfolder of your HostsChanger installation directory.
+A: Yes. Simply create a pair of 16×16 png and ico files and name them as follows: `HostsChanger-<yourProfileName>.<ext>`, then place the files in the Icons subfolder of your HostsChanger installation directory.
